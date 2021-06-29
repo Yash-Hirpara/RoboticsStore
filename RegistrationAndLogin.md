@@ -42,9 +42,9 @@ Should destroy the session
 Redirect to login
 
 Members and Contribution:
-Tej Vyas - Worked on Login, Logout, Registration files, pushing the code to github branch and pull request
-Yash Hirpara - Worked on mysql to create database
-Hiten Patel - Worked on connecting the code with database and creating a table
-Amisha Patel - Worked on creating the database in mysql and edited the project proposal
-Parth Brahmbhatt - Worked on running test files in aws
-Naiya Patel - Worked on creating project board and adding issues for the 'Login and Registration' assignment
+* Tej Vyas - Worked on Login, Logout, Registration files, pushing the code to github branch and pull request
+* Yash Hirpara - Worked on mysql to create database
+* Hiten Patel - Worked on connecting the code with database and creating a table
+* Amisha Patel - Worked on creating the database in mysql and edited the project proposal
+* Parth Brahmbhatt - Worked on running test files in aws
+* Naiya Patel - Worked on creating project board and adding issues for the 'Login and Registration' assignment

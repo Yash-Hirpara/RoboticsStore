@@ -1,5 +1,12 @@
 <?php
 
+echo "I'm starting\n";
+while(true){
+        sleep(5);
+        echo "I'm running \n";
+}
+echo "I'm exiting \n";
+echo "Or not?";
 require_once('path.inc');
 require_once('get_host_info.inc');
 require_once('rabbitMQLib.inc');

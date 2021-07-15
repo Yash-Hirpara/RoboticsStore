@@ -1,5 +1,27 @@
 * Milestone 2: Deployment/Promotion System
 
+* You will implement a system that allows transferring of files from VM A to VM B. 
+Let me know if you'll be developing a push system A -> B
+Or a pull system B <- A
+Or if it'll support both
+: In Progress
+* Reception of the files should go to a landing point directory, not directly to the live data
+ : In Progress
+* Any live files should be backed up into a backup directory (include a timestamp in the backup name) : In Progress
+* Once live files are backed up, overwrite/replace those files with the newly received changes : In Progress
+* After this process, the new files should be usable/working on VM B : In Progress
+* File/Data Support
+php
+config files
+any content
+DB structural changes
+Be very particular about not including DB content, usually the different lanes have different data (or config settings) you don't want to get promoted
+You wouldn't want to see "Test Product" in production for example or be connecting to DEV via Production by mistake : In Progress
+* The system should also support Reverting changes / Restoring Backups
+Create a new backup of the current files
+Restore the previously backed up files from a specific "transaction"
+After the process, the application should be in the state of the back up files (an older version of things) : In Progress
+
 
 * Screenshots:
 

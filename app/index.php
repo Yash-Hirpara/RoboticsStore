@@ -26,12 +26,12 @@ session_start();
         <!-- Latest compiled and minified javascript -->
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
         <!-- External CSS -->
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
     <body>
         <div>
            <?php
-            require 'home.php';
+            require 'header.php';
            ?>
            <div id="bannerImage">
                <div class="container">
@@ -49,7 +49,7 @@ session_start();
                    <div class="col-xs-4">
                        <div  class="thumbnail">
                            <a href="products.php">
-                                <img src="img/camera.jpg" alt="Robots">
+                                <img src="https://www.cnet.com/a/img/3Mz70ppadlK1VwwC0360aDCR188=/940x0/2018/03/15/c2a89685-9f7a-4946-8afb-f2f764177e3b/pepperpizzahut.jpg" alt="Robots" class="center" width="500" height="333">
                            </a>
                            <center>
                                 <div class="caption">
@@ -62,7 +62,7 @@ session_start();
                    <div class="col-xs-4">
                        <div class="thumbnail">
                            <a href="products.php">
-                               <img src="img/watch.jpg" alt="Parts">
+                               <img src="https://media.sketchfab.com/models/b0bd0ba3191845b58753c00b9233b180/thumbnails/7f54d37567f94c2a85abb28a78f44401/bfe630e6c87044a3933940a701f6b95e.jpeg" alt="Parts" class="center" width="500" height="333">
                            </a>
                            <center>
                                 <div class="caption">
@@ -75,7 +75,7 @@ session_start();
                    <div class="col-xs-4">
                        <div class="thumbnail">
                            <a href="products.php">
-                               <img src="img/shirt.jpg" alt="Machines">
+                               <img src="https://www.eletimes.com/wp-content/uploads/2019/12/Robotics-industrial.jpg" alt="Machines" class="center" width="500" height="333">
                            </a>
                            <center>
                                <div class="caption">

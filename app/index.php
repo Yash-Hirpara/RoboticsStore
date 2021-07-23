@@ -6,7 +6,7 @@ session_start();
     <head>
 	<style>
 	body {
-	  	background-color: linen;
+	  	background-color: white;
 	}
 
 	h1 {
@@ -30,15 +30,21 @@ session_start();
     </head>
     <body>
         <div>
-           <?php
-            require 'header.php';
-           ?>
            <div id="bannerImage">
                <div class="container">
                    <center>
+		   <div id="websiteTitle">
+                        <h1><center>Robo Shop<center></h1>
+                       	<p></p>
+		 </center>
+	           <?php
+	            require 'header.php';
+        	   ?>
+		<br>
                    <div id="bannerContent">
-                       <h1>Incredible Prices on All Manufacturer Parts</h1>
-                       <p></p>
+                       <h2>Incredible Prices on All Manufacturer Parts</h2>
+			<center>
+			<p></p>
                        <a href="products.php" class="btn btn-danger">Shop Now</a>
                    </div>
                    </center>
@@ -49,7 +55,7 @@ session_start();
                    <div class="col-xs-4">
                        <div  class="thumbnail">
                            <a href="products.php">
-                                <img src="https://www.cnet.com/a/img/3Mz70ppadlK1VwwC0360aDCR188=/940x0/2018/03/15/c2a89685-9f7a-4946-8afb-f2f764177e3b/pepperpizzahut.jpg" alt="Robots" class="center" width="500" height="333">
+                                <center><img src="https://www.cnet.com/a/img/3Mz70ppadlK1VwwC0360aDCR188=/940x0/2018/03/15/c2a89685-9f7a-4946-8afb-f2f764177e3b/pepperpizzahut.jpg" alt="Robots" class="center" width="500" height="333"><center>
                            </a>
                            <center>
                                 <div class="caption">
@@ -62,7 +68,7 @@ session_start();
                    <div class="col-xs-4">
                        <div class="thumbnail">
                            <a href="products.php">
-                               <img src="https://media.sketchfab.com/models/b0bd0ba3191845b58753c00b9233b180/thumbnails/7f54d37567f94c2a85abb28a78f44401/bfe630e6c87044a3933940a701f6b95e.jpeg" alt="Parts" class="center" width="500" height="333">
+                              <center><img src="https://media.sketchfab.com/models/b0bd0ba3191845b58753c00b9233b180/thumbnails/7f54d37567f94c2a85abb28a78f44401/bfe630e6c87044a3933940a701f6b95e.jpeg" alt="Parts" class="center" width="500" height="333"><center>
                            </a>
                            <center>
                                 <div class="caption">
@@ -75,7 +81,7 @@ session_start();
                    <div class="col-xs-4">
                        <div class="thumbnail">
                            <a href="products.php">
-                               <img src="https://www.eletimes.com/wp-content/uploads/2019/12/Robotics-industrial.jpg" alt="Machines" class="center" width="500" height="333">
+                              <center><img src="https://www.eletimes.com/wp-content/uploads/2019/12/Robotics-industrial.jpg" alt="Machines" class="center" width="500" height="333"><center>
                            </a>
                            <center>
                                <div class="caption">

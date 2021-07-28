@@ -7,7 +7,12 @@ session_start();
 <input type="password" name="password"/>
 <input type="submit" name="submit" value="Registration"/>
 </form>
-
+<style>
+	        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: linen;
+        }
+    </style>
 <?php
 if(isset($_POST["submit"])){
 	$username = $_POST["username"];

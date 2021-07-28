@@ -10,6 +10,7 @@
                     <h1>Welcome to our Robo Shop!</h1>
                     <p>Your one stop shop for Robots, Robo Parts and Industrial Robot Machines</p>
                 </div>
+		<br>
             </div>
             <div class="container">
                 <div class="row">
@@ -57,6 +58,11 @@
                 </div>
             </div>
             <br><br><br><br><br><br><br><br>
+		<br>
+                <div style="text-align: center;">
+                        <button><a href="cart.php" class="center">Go to Cart</a></button>
+                </div>
+		<br><br><br><br><br><br><br><br>
            <footer class="footer">
                <div class="container">
                <center>

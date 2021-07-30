@@ -3,12 +3,8 @@
 require_once(DIR . '/../lib/path.inc');
 require_once(DIR . '/../lib/get_host_info.inc');
 require_once(DIR . '/../lib/rabbitMQLib.inc');
-//require(DIR."/dbconnection.php");
 
-//separate files for DB calls so it's easier to divide work
 require(DIR."/APIFunctions/getAPI.php");
-//require(DIR."/APIFunctions/register.php");
-//TODO add more as they're developed
 
 function request_processor($req){
         echo "Received Request".PHP_EOL;

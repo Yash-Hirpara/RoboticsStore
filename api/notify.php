@@ -1,7 +1,5 @@
 <?php
-// CONFIG: Enable debug mode. This means we'll log requests into 'ipn.log' in the same directory.
-// Especially useful if you encounter network errors or other intermittent problems with IPN (validation).
-// Set this to 0 once you go live or don't require logging.
+
 define("DEBUG", 1);
 // Set to 0 once you're ready to go live
 define("USE_SANDBOX", 1);
@@ -52,17 +50,10 @@ if(DEBUG == true) {
 	curl_setopt($ch, CURLOPT_HEADER, 1);
 	curl_setopt($ch, CURLINFO_HEADER_OUT, 1);
 }
-// CONFIG: Optional proxy configuration
-//curl_setopt($ch, CURLOPT_PROXY, $proxy);
-//curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL, 1);
-// Set TCP timeout to 30 seconds
+
 curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 30);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Connection: Close'));
-// CONFIG: Please download 'cacert.pem' from "http://curl.haxx.se/docs/caextract.html" and set the directory path
-// of the certificate as shown below. Ensure the file is readable by the webserver.
-// This is mandatory for some environments.
-//$cert = _DIR_ . "./cacert.pem";
-//curl_setopt($ch, CURLOPT_CAINFO, $cert);
+
 $res = curl_exec($ch);
 if (curl_errno($ch) != 0) // cURL error
 	{
